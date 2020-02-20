@@ -1,0 +1,60 @@
+[timi:] 2020-02-17 22:32:01.761 INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting DemoApplication on MS-20160114NJCH with PID 4348 (H:\2020hanjia\SpringBoot\springbootlog4j2\target\classes started by Administrator in H:\2020hanjia\SpringBoot\springbootlog4j2)
+[timi:] 2020-02-17 22:32:01.769 INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[timi:] 2020-02-17 22:32:03.821 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[timi:] 2020-02-17 22:32:03.825 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[timi:] 2020-02-17 22:32:04.003 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 157ms. Found 1 JPA repository interfaces.
+[timi:] 2020-02-17 22:32:04.051 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[timi:] 2020-02-17 22:32:04.054 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[timi:] 2020-02-17 22:32:04.096 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport 348 isStrictRepositoryCandidate - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.AyUserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+[timi:] 2020-02-17 22:32:04.097 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+[timi:] 2020-02-17 22:32:04.972 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[timi:] 2020-02-17 22:32:06.371 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8080 (http)
+[timi:] 2020-02-17 22:32:06.481 INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+[timi:] 2020-02-17 22:32:06.482 INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[timi:] 2020-02-17 22:32:06.484 INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.30]
+[timi:] 2020-02-17 22:32:06.949 INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[timi:] 2020-02-17 22:32:06.951 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5010 ms
+[timi:] 2020-02-17 22:32:07.706 INFO  com.zaxxer.hikari.HikariDataSource 110 getConnection - HikariPool-1 - Starting...
+[timi:] 2020-02-17 22:32:08.080 INFO  com.zaxxer.hikari.HikariDataSource 123 getConnection - HikariPool-1 - Start completed.
+[timi:] 2020-02-17 22:32:08.179 INFO  org.hibernate.jpa.internal.util.LogHelper 31 logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+[timi:] 2020-02-17 22:32:08.367 INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.10.Final}
+[timi:] 2020-02-17 22:32:08.750 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[timi:] 2020-02-17 22:32:09.161 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[timi:] 2020-02-17 22:32:10.469 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[timi:] 2020-02-17 22:32:10.489 INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[timi:] 2020-02-17 22:32:13.026 INFO  io.lettuce.core.EpollProvider 68 <clinit> - Starting without optional epoll library
+[timi:] 2020-02-17 22:32:13.043 INFO  io.lettuce.core.KqueueProvider 70 <clinit> - Starting without optional kqueue library
+[timi:] 2020-02-17 22:32:16.068 INFO  com.example.demo.listener.AyUserListener 37 contextInitialized - 缓存中目前的用户有:4人
+[timi:] 2020-02-17 22:32:16.069 INFO  com.example.demo.listener.AyUserListener 38 contextInitialized - ServletContext上下文初始化
+[timi:] 2020-02-17 22:32:17.323 INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[timi:] 2020-02-17 22:32:17.657 WARN  org.thymeleaf.templatemode.TemplateMode 150 parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[timi:] 2020-02-17 22:32:18.292 INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting ProtocolHandler ["http-nio-8080"]
+[timi:] 2020-02-17 22:32:18.453 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8080 (http) with context path ''
+[timi:] 2020-02-17 22:32:18.459 INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started DemoApplication in 20.478 seconds (JVM running for 27.811)
+[timi:] 2020-02-17 22:43:26.924 INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting DemoApplicationTests on MS-20160114NJCH with PID 3696 (started by Administrator in H:\2020hanjia\SpringBoot\springbootlog4j2)
+[timi:] 2020-02-17 22:43:26.941 INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[timi:] 2020-02-17 22:43:33.130 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[timi:] 2020-02-17 22:43:33.235 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[timi:] 2020-02-17 22:43:40.717 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 7460ms. Found 1 JPA repository interfaces.
+[timi:] 2020-02-17 22:43:40.766 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[timi:] 2020-02-17 22:43:40.770 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[timi:] 2020-02-17 22:43:40.823 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport 348 isStrictRepositoryCandidate - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.AyUserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+[timi:] 2020-02-17 22:43:40.825 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+[timi:] 2020-02-17 22:43:45.702 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[timi:] 2020-02-17 22:43:54.433 INFO  com.zaxxer.hikari.HikariDataSource 110 getConnection - HikariPool-1 - Starting...
+[timi:] 2020-02-17 22:44:11.015 INFO  com.zaxxer.hikari.HikariDataSource 123 getConnection - HikariPool-1 - Start completed.
+[timi:] 2020-02-17 22:44:14.777 INFO  org.hibernate.jpa.internal.util.LogHelper 31 logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+[timi:] 2020-02-17 22:44:22.149 INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.10.Final}
+[timi:] 2020-02-17 22:44:41.106 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[timi:] 2020-02-17 22:44:50.661 INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[timi:] 2020-02-17 22:44:55.892 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[timi:] 2020-02-17 22:44:55.929 INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[timi:] 2020-02-17 22:45:01.428 INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[timi:] 2020-02-17 22:45:02.508 WARN  org.thymeleaf.templatemode.TemplateMode 150 parse - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[timi:] 2020-02-17 22:45:03.854 INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started DemoApplicationTests in 99.64 seconds (JVM running for 114.533)
+[timi:] 2020-02-17 22:45:06.712 INFO  com.example.demo.service.impl.AyUserServiceImpl 62 delete - id:6用户被删除
+[timi:] 2020-02-17 22:45:06.712 INFO  com.example.demo.DemoApplicationTests 78 testLog4j2 - 删除成功
+[timi:] 2020-02-17 22:45:06.888 INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[timi:] 2020-02-17 22:45:06.990 INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 598 destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+[timi:] 2020-02-17 22:45:06.997 INFO  com.zaxxer.hikari.HikariDataSource 350 close - HikariPool-1 - Shutdown initiated...
+[timi:] 2020-02-17 22:45:07.088 INFO  com.zaxxer.hikari.HikariDataSource 352 close - HikariPool-1 - Shutdown completed.
